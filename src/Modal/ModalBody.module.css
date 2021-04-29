@@ -1,0 +1,11 @@
+.modalBody {
+    padding: 1rem;
+    flex: 1;
+    overflow-y: scroll;
+}
+
+@media screen and (min-width: 480px) {
+    .modalBody {
+        padding: 1.5rem;
+    }
+}

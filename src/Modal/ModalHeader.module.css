@@ -1,0 +1,19 @@
+.modalHeader {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #ECEFF1;
+}
+
+@media screen and (min-width: 480px) {
+    .modalHeader {
+        padding: 1.5rem;
+    }
+}
+
+.modalHeader .modalHeaderButton {
+    margin-left: auto;
+}
+
+.modalHeaderButton {
+
+}

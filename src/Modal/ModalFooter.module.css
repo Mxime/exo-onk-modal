@@ -1,0 +1,12 @@
+.modalFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+    .modalFooter {
+        flex-direction: row-reverse;
+    }
+}
